@@ -7,33 +7,26 @@ __You will write your solution in `lib/bubble.js`__
 
 ## Approaching the problem
 
+Watch the video and reason about how Bubble Sort sorts an array of numbers.
+
+__THEN:__
+
 * Write pseudo code to help you understand and organize the problem
-* start with the smallest sample possible and go from there.
+* Use the included tests to help you approach the problem in small steps.
 
-__EXAMPLE:__
-
-__#1 Sorts an array of 2__
-
-```js
-var expectedInput = [5, 2];
-var expectedOutput = [2, 5];
+__RUNNING TESTS:__
+```sh
+mocha
 ```
-__#2 Sorts an array of 3__
+You should work through tests one at a time. When you have passed the first test,
+delete the `x` from the next `xit` statement in `test/bubble.test.js`.
 
-```js
-var expectedInput = [5, 2, 1];
-var expectedOutput = [1, 2, 5];
-```
-__Until Finally__
+Rinse and repeat until all tests are passing.
 
-```js
-var expectedInput = [5, 2, 4, 3, 8, 10, 1, 0];
-var expectedOutput = [0, 1, 2, 3, 4, 5, 8, 10];
-```
+__Good developer habits:__
 
-__TESTS:__
+When you get your first test passing, `git status`, `git add` and `git commit` before
+moving on to the next test. Do this for each passing test.
 
-If you want to test drive your solution, testing is all wired up for you with one initial test included. You'll have to write the rest on your own.
-
-## Submit 
+## Submit
 Submit a PR with your solution.
